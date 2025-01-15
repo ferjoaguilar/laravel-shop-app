@@ -1,0 +1,30 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Shop API",
+        "description": "API for shop",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/v1/users": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Get all users",
+                "operationId": "fe7a73e76b06eff55690d46e52ff72b3",
+                "responses": {
+                    "200": {
+                        "description": "Este endpoint es para obtener todos los usuarios"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Users",
+            "description": "Users"
+        }
+    ]
+}
